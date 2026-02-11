@@ -1,0 +1,4 @@
+import math
+a=float(input("enter a number"))
+f_fraction=(a-math.floor(a))*10
+print(int(f_fraction))
