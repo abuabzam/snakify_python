@@ -1,0 +1,5 @@
+h=int(input("enter hr"))
+m=int(input("enter min"))
+s=int(input("enter sec"))
+degree=(h*30)+(m*0.5)+(s*(1/120))
+print(degree)
