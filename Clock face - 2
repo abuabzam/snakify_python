@@ -1,0 +1,5 @@
+a=float(input("enter alpha angle"))
+hr=a/30
+m=(hr-int(hr))*360
+
+print(m)
