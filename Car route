@@ -1,0 +1,4 @@
+import math
+n=int(input("enter km travelled in one day"))
+m=int(input("enter total km"))
+print(math.ceil(m/n))
