@@ -1,0 +1,5 @@
+t=int(input("enter the min passed"))
+h=t//60
+m=t-(h*60)
+print(h)
+print(m)
