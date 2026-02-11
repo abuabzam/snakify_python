@@ -1,0 +1,8 @@
+a=int(input('enter dollar'))
+b=int(input('enter cent'))
+n=int(input('enter no of cupcakes to buy'))
+t=a+(b/100)
+dollar=int(t*n)
+cent=((t*n)-dollar)*100
+print(dollar)
+print(cent)
