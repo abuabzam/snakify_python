@@ -1,0 +1,8 @@
+fc=int(input())
+fr=int(input())
+sc=int(input())
+sr=int(input())
+if (abs(fr-sr)==abs(sc-fc)) or (fc==sc or fr==sr):
+    print("YES")
+else:
+    print("NO")
