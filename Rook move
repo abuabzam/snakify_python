@@ -1,0 +1,8 @@
+fc=int(input())
+fr=int(input())
+sc=int(input())
+sr=int(input())
+if fr==sr or fc==sc:
+    print("YES")
+else:
+    print("NO")
