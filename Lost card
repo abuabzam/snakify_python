@@ -1,0 +1,9 @@
+n=int(input())
+totalcardsum=0
+availablecardsum=0
+for i in range(n+1):
+    totalcardsum+=i
+for i in range(n-1):
+    b=int(input())
+    availablecardsum+=b
+print(totalcardsum-availablecardsum)
