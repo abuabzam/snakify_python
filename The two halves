@@ -1,0 +1,4 @@
+s=input()
+fs=s[:(len(s)+1)//2]
+ss=s[(len(s)+1)//2:]
+print(ss+fs)
