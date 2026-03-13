@@ -1,0 +1,5 @@
+sentence=input()
+first_of_h=sentence.find('h')
+last_of_h=sentence.rfind('h')+1
+new_sentence=sentence[:first_of_h]+sentence[last_of_h:]
+print(new_sentence)
