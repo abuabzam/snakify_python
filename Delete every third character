@@ -1,0 +1,6 @@
+sentence=input()
+new_sentence=''
+for i in range(len(sentence)):
+    if i%3!=0:
+        new_sentence+=sentence[i]
+print(new_sentence)
