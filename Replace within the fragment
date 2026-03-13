@@ -1,0 +1,5 @@
+sentence=input()
+first_of_h=sentence.find('h')+1
+last_of_h=sentence.rfind('h')
+middle=sentence[first_of_h:last_of_h]
+print(sentence[:first_of_h]+middle.replace('h','H')+sentence[last_of_h:])
