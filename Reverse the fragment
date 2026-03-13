@@ -1,0 +1,7 @@
+sentence=input()
+first_of_h=sentence.find('h')
+last_of_h=sentence.rfind('h')
+reverse=""
+for i in range(last_of_h,first_of_h,-1):
+    reverse+=sentence[i]
+print(sentence[:first_of_h]+reverse+sentence[last_of_h:])
