@@ -1,0 +1,18 @@
+n = int(input())
+largest = n
+count = 1
+while n :
+    n = int(input())
+
+    if n == 0 :
+        break
+    
+    if n > largest :
+        largest = n
+        count = 1
+    elif n == largest :
+        count +=1
+    
+    
+print(count)
+    
