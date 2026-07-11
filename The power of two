@@ -1,0 +1,10 @@
+n = int(input())
+
+x = 1
+count = 0
+
+while x * 2 <= n:
+    x = x * 2
+    count += 1
+
+print(count, x)
