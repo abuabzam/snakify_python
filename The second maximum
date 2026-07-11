@@ -1,0 +1,24 @@
+previous = int(input())
+current =int(input())
+largest = 0
+second_largest = 0
+if current > previous :
+    largest = current
+    second_largest = previous
+else :
+    largest = previous
+    second_largest = current
+
+
+while current :
+    current = int(input())
+    if current == 0:
+        break
+    if current > largest :
+        second_largest = largest
+        largest = current
+        
+    elif current > second_largest :
+        second_largest = current
+
+print(second_largest)
