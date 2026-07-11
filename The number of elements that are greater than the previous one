@@ -1,0 +1,13 @@
+current = int(input())
+previous = current
+count = 0
+while current :
+    current = int(input())
+    if current == 0: 
+        break
+    if current > previous :
+        count += 1
+    previous = current
+    
+
+print(count)
