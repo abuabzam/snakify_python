@@ -1,0 +1,10 @@
+n = int(input())
+sum = 0
+larger = n
+while n :
+    
+    n= int(input())
+    if n > larger :
+        larger = n
+    
+print(larger)
