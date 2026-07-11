@@ -1,0 +1,11 @@
+n = int(input())
+larger = n
+count = 1
+pos = 1
+while n:
+    n = int(input())
+    count +=1
+    if n >larger :
+        larger = n
+        pos = count
+print(pos)
